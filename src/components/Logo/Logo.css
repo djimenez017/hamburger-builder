@@ -9,3 +9,9 @@
 .Logo img {
     height: 100%;
 }
+
+@media (max-width: 499px) {
+    .Logo{
+        background-color:#8f5c2c;
+    }
+}
