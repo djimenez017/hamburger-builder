@@ -4,7 +4,7 @@ import Auxx from "../../hoc/Auxx/Auxx";
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import Modal from '../../components/UI/Modal/Modal';
-import orderSummary from '../../components/Burger/OrderSummary/OrderSummary';
+import OrderSummary from '../../components/Burger/OrderSummary/OrderSummary';
 import axios from "../../axios-orders";
 import Spinner from '../../components/UI/Spinner/Spinner';
 
@@ -115,7 +115,7 @@ purchaseContinueHandler = () => {
             disabledInfo[key] = disabledInfo[key] <=0
         }
         let orderSummary = 
-        <orderSummary 
+        <OrderSummary 
             ingredients={this.state.ingredients}
             purchaseCancelled={this.purchaseCancelHandler}
             purchaseContinued={this.purchaseContinueHandler}
