@@ -114,7 +114,7 @@ purchaseContinueHandler = () => {
         for (let key in disabledInfo) {
             disabledInfo[key] = disabledInfo[key] <=0
         }
-        let OrderSummary = 
+        let orderSummary = 
         <OrderSummary 
             ingredients={this.state.ingredients}
             purchaseCancelled={this.purchaseCancelHandler}
