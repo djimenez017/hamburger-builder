@@ -4,13 +4,6 @@ import Auxx from '../../../hoc/Auxx/Auxx';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
-<<<<<<< HEAD
-    componentDidUpdate(){
-        console.log("order summary will update");
-    }
-=======
-
->>>>>>> 4a2908e751d20a51442ab1f3768ce3ae0df97f22
 
     render() {
         const ingredientSummary = Object.keys(this.props.ingredients)

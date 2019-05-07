@@ -121,12 +121,12 @@ purchaseContinueHandler = () => {
             purchaseContinued={this.purchaseContinueHandler}
             price={this.state.totalPrice.toFixed(2)}/>;
     if (this.state.loading){
-        OrderSummary = <Spinner />;
+        orderSummary = <Spinner />;
     };
         return(
             <Auxx>
                 <Modal show={this.state.purchasing} modalClosed={this.purchaseCancelHandler}>
-                    {OrderSummary}
+                    {orderSummary}
                 </Modal>
 
                 <Burger 
